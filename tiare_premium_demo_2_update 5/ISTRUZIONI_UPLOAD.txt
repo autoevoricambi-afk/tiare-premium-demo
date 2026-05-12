@@ -1,0 +1,6 @@
+CARICAMENTO SU GITHUB
+1. Aprire la repository tiare-premium-demo.
+2. Eliminare o sovrascrivere la cartella tiare_premium_demo_2_update attuale.
+3. Caricare questa cartella tiare_premium_demo_2_update mantenendo lo stesso nome.
+4. Commit consigliato: "Restyling premium Tiarè V5 con camere, tariffe e concierge".
+5. Vercel aggiorna automaticamente se la Root Directory è tiare_premium_demo_2_update.
