@@ -1,0 +1,6 @@
+UPLOAD RAPIDO
+1. Apri la repository GitHub tiare-premium-demo.
+2. Clicca Add file > Upload files.
+3. Trascina l'intera cartella tiare_premium_demo_2_update contenuta in questo pacchetto.
+4. Commit: "Restyling premium completo Tiare V4".
+5. Vercel aggiorna automaticamente il link già attivo.
