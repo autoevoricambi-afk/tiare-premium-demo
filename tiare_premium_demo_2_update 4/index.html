@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>B&B Tiarè Trani | Camere, tariffe e disponibilità diretta</title>
+  <meta name="description" content="B&B Tiarè a Trani: camere eleganti, tariffe, richiesta disponibilità diretta, WhatsApp e concierge digitale per organizzare il soggiorno." />
+  <meta name="theme-color" content="#120d09" />
+  <meta property="og:title" content="B&B Tiarè Trani | Ospitalità elegante nel cuore della Puglia" />
+  <meta property="og:description" content="Scopri le camere di Tiarè, verifica la disponibilità e richiedi direttamente la soluzione più adatta al tuo soggiorno a Trani." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/hero-trani-auto-clean.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" id="page-progress" aria-hidden="true"></div>
+
+  <div class="topbar">
+    <div class="shell topbar-inner">
+      <p>B&B Tiarè · Via Simone de Brado 123, Trani</p>
+      <div class="topbar-links">
+        <a href="tel:+39368435026">+39 368 435 026</a>
+        <span></span>
+        <a href="mailto:bbtriare@gmail.com">bbtriare@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header shell" id="top">
+    <a class="brand" href="#top" aria-label="Tiarè Bed & Breakfast">
+      <img src="assets/logo_tiare.png" alt="Logo Tiarè Bed & Breakfast" />
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navigazione principale">
+      <a href="#camere">Camere</a>
+      <a href="#disponibilita">Disponibilità</a>
+      <a href="#tariffe">Tariffe</a>
+      <a href="#esperienza">Esperienza</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-outline" href="tel:+39368435026">Chiama</a>
+      <a class="btn btn-primary" href="#disponibilita">Verifica disponibilità</a>
+    </div>
+
+    <button class="menu-toggle" type="button" aria-label="Apri il menu" aria-controls="mobile-menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <aside class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav aria-label="Navigazione mobile">
+      <a href="#camere">Camere</a>
+      <a href="#disponibilita">Disponibilità</a>
+      <a href="#tariffe">Tariffe</a>
+      <a href="#esperienza">Esperienza</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+    <div class="mobile-actions">
+      <a class="btn btn-primary" href="#disponibilita">Richiedi disponibilità</a>
+      <a class="btn btn-outline" href="https://wa.me/39368435026?text=Buongiorno%2C%20vorrei%20ricevere%20informazioni%20sul%20B%26B%20Tiar%C3%A8." target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </aside>
+
+  <main>
+    <section class="hero shell" aria-label="B&B Tiarè a Trani">
+      <div class="hero-visual reveal">
+        <img src="assets/hero-trani-auto-clean.webp" alt="Auto Tiarè davanti alla Cattedrale di Trani" />
+        <div class="hero-shade"></div>
+        <div class="hero-corner">
+          <span>Trani · Puglia</span>
+          <strong>Camere curate, richiesta diretta, ospitalità autentica.</strong>
+        </div>
+
+        <div class="hero-copy">
+          <span class="eyebrow">Bed & Breakfast Tiarè</span>
+          <h1>Soggiornare a Trani, con più carattere.</h1>
+          <p>
+            Tiarè unisce ambienti riconoscibili, atmosfera intima e contatto diretto con l’host.
+            Scopri le camere, consulta le tariffe pubblicate e invia una richiesta completa in pochi passaggi.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#disponibilita">Verifica disponibilità</a>
+            <a class="btn btn-soft" href="#camere">Scopri le camere</a>
+          </div>
+
+          <div class="trust-row" aria-label="Punti di forza">
+            <article>
+              <strong>Camere distintive</strong>
+              <span>Lavanda, Tulipano, Ginestra e Ranuncolo.</span>
+            </article>
+            <article>
+              <strong>Tariffe visibili</strong>
+              <span>Prezzi camera chiari e richiesta diretta sulle date.</span>
+            </article>
+            <article>
+              <strong>Risposta rapida</strong>
+              <span>WhatsApp, telefono e concierge digitale.</span>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <form class="hero-booking reveal delay-1" id="hero-booking-form">
+        <label class="mini-field">
+          <span>Check-in</span>
+          <input type="date" id="quick-checkin" required />
+        </label>
+        <label class="mini-field">
+          <span>Check-out</span>
+          <input type="date" id="quick-checkout" required />
+        </label>
+        <label class="mini-field">
+          <span>Camera</span>
+          <select id="quick-room">
+            <option value="Nessuna preferenza">Nessuna preferenza</option>
+            <option value="Suite Lavanda">Suite Lavanda</option>
+            <option value="Doppia Ginestra">Doppia Ginestra</option>
+            <option value="Doppia Tulipano">Doppia Tulipano</option>
+            <option value="Tripla Ranuncolo">Tripla Ranuncolo</option>
+          </select>
+        </label>
+        <button class="btn btn-primary" type="submit">Avvia richiesta</button>
+      </form>
+    </section>
+
+    <section class="highlights shell" aria-label="Perché scegliere Tiarè">
+      <article class="highlight-card reveal">
+        <span>01</span>
+        <h2>Contatto diretto</h2>
+        <p>Una richiesta ordinata, date chiare e risposta dell’host senza dispersioni.</p>
+      </article>
+      <article class="highlight-card reveal delay-1">
+        <span>02</span>
+        <h2>Camere riconoscibili</h2>
+        <p>Ogni stanza ha un’identità visiva e una proposta immediatamente comprensibile.</p>
+      </article>
+      <article class="highlight-card reveal delay-2">
+        <span>03</span>
+        <h2>Trani al centro</h2>
+        <p>Mare, centro storico, cucina locale e consigli mirati per vivere il territorio.</p>
+      </article>
+    </section>
+
+    <section class="rooms shell" id="camere" aria-label="Camere del B&B Tiarè">
+      <div class="section-head reveal">
+        <span class="eyebrow">Le camere</span>
+        <h2>Scegli l’ambiente che accompagna il tuo soggiorno.</h2>
+        <p>
+          Quattro atmosfere differenti. Ogni card unisce immagine, capienza, tariffa e azione immediata,
+          così la scelta resta semplice anche da smartphone.
+        </p>
+      </div>
+
+      <div class="rooms-grid">
+        <article class="room-card featured reveal">
+          <figure>
+            <img src="assets/room-lavanda.webp" alt="Suite Lavanda del B&B Tiarè" loading="lazy" />
+          </figure>
+          <div class="room-body">
+            <div class="room-topline"><span>Suite Lavanda</span><strong>Tariffa su richiesta</strong></div>
+            <h3>Calda, scenografica, distintiva.</h3>
+            <p>Un ambiente dal carattere più ricercato, ideale per chi desidera un soggiorno visivamente memorabile e molto curato.</p>
+            <ul class="room-tags"><li>Atmosfera premium</li><li>Richiesta dedicata</li><li>Contatto diretto</li></ul>
+            <button class="text-link room-select" data-room="Suite Lavanda" type="button">Richiedi Lavanda</button>
+          </div>
+        </article>
+
+        <article class="room-card wide reveal delay-1">
+          <figure>
+            <img src="assets/room-ginestra.webp" alt="Camera Doppia Ginestra del B&B Tiarè" loading="lazy" />
+          </figure>
+          <div class="room-body">
+            <div class="room-topline"><span>Doppia Ginestra</span><strong>€70 / notte</strong></div>
+            <h3>Essenziale, raccolta, rilassante.</h3>
+            <p>Una camera doppia sobria e accogliente, pensata per un soggiorno confortevole nel cuore di Trani.</p>
+            <ul class="room-tags"><li>Doppia</li><li>Tariffa pubblicata</li><li>Richiesta rapida</li></ul>
+            <button class="text-link room-select" data-room="Doppia Ginestra" type="button">Richiedi Ginestra</button>
+          </div>
+        </article>
+
+        <article class="room-card wide reveal">
+          <figure>
+            <img src="assets/room-tulipano.webp" alt="Camera Doppia Tulipano del B&B Tiarè" loading="lazy" />
+          </figure>
+          <div class="room-body">
+            <div class="room-topline"><span>Doppia Tulipano</span><strong>€100 / notte</strong></div>
+            <h3>Colorata, decisa, contemporanea.</h3>
+            <p>Una camera dal tono riconoscibile, con personalità visiva forte e proposta chiara per soggiorni in coppia.</p>
+            <ul class="room-tags"><li>Doppia</li><li>Design distintivo</li><li>Tariffa pubblicata</li></ul>
+            <button class="text-link room-select" data-room="Doppia Tulipano" type="button">Richiedi Tulipano</button>
+          </div>
+        </article>
+
+        <article class="room-card featured reveal delay-1">
+          <figure>
+            <img src="assets/room-ranuncolo.webp" alt="Camera Tripla Ranuncolo del B&B Tiarè" loading="lazy" />
+          </figure>
+          <div class="room-body">
+            <div class="room-topline"><span>Tripla Ranuncolo</span><strong>€130 / notte</strong></div>
+            <h3>Versatile, luminosa, fino a tre ospiti.</h3>
+            <p>La soluzione più flessibile, adatta a chi viaggia in compagnia o desidera maggiore ampiezza e praticità.</p>
+            <ul class="room-tags"><li>Fino a 3 ospiti</li><li>Camera tripla</li><li>Tariffa pubblicata</li></ul>
+            <button class="text-link room-select" data-room="Tripla Ranuncolo" type="button">Richiedi Ranuncolo</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="availability shell" id="disponibilita" aria-label="Richiedi disponibilità">
+      <div class="availability-intro reveal">
+        <span class="eyebrow">Disponibilità</span>
+        <h2>Invia una richiesta già completa.</h2>
+        <p>
+          Inserisci periodo, ospiti e camera preferita. Il sito crea automaticamente un messaggio WhatsApp ordinato,
+          con riepilogo e indicazione tariffaria quando disponibile.
+        </p>
+
+        <div class="availability-notes">
+          <article><strong>Più precisione</strong><span>L’host riceve subito le informazioni utili.</span></article>
+          <article><strong>Meno attesa</strong><span>La risposta parte da una richiesta già strutturata.</span></article>
+          <article><strong>Più fiducia</strong><span>Il cliente vede cosa sta inviando prima del contatto.</span></article>
+        </div>
+      </div>
+
+      <div class="availability-grid reveal delay-1">
+        <form class="booking-card" id="availability-form">
+          <div class="field-grid">
+            <label class="field"><span>Check-in</span><input type="date" id="checkin" required /></label>
+            <label class="field"><span>Check-out</span><input type="date" id="checkout" required /></label>
+            <label class="field">
+              <span>Ospiti</span>
+              <select id="guests">
+                <option value="1 ospite">1 ospite</option>
+                <option value="2 ospiti" selected>2 ospiti</option>
+                <option value="3 ospiti">3 ospiti</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Camera preferita</span>
+              <select id="room">
+                <option value="Nessuna preferenza">Nessuna preferenza</option>
+                <option value="Suite Lavanda">Suite Lavanda</option>
+                <option value="Doppia Ginestra">Doppia Ginestra</option>
+                <option value="Doppia Tulipano">Doppia Tulipano</option>
+                <option value="Tripla Ranuncolo">Tripla Ranuncolo</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="field field-full">
+            <span>Richiesta aggiuntiva</span>
+            <textarea id="notes" rows="4" placeholder="Esempio: arrivo serale, weekend in coppia, preferenza camera, richiesta informazioni..."></textarea>
+          </label>
+
+          <div class="booking-actions">
+            <button class="btn btn-primary" type="submit">Invia richiesta su WhatsApp</button>
+            <a class="btn btn-outline" href="tel:+39368435026">Chiama Riccardo</a>
+          </div>
+        </form>
+
+        <aside class="summary-card" aria-live="polite">
+          <div class="summary-head">
+            <span class="eyebrow small">Riepilogo soggiorno</span>
+            <h3 id="summary-room-title">Soggiorno a Tiarè</h3>
+          </div>
+          <dl>
+            <div><dt>Periodo</dt><dd id="summary-dates">Seleziona le date</dd></div>
+            <div><dt>Durata</dt><dd id="summary-nights">—</dd></div>
+            <div><dt>Ospiti</dt><dd id="summary-guests">2 ospiti</dd></div>
+            <div><dt>Tariffa camera</dt><dd id="summary-rate">Da verificare</dd></div>
+          </dl>
+          <div class="estimate-box">
+            <span>Indicazione soggiorno</span>
+            <strong id="summary-estimate">Richiedi disponibilità</strong>
+            <p id="summary-estimate-note">La tariffa finale viene confermata dall’host in base al periodo richiesto.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="rates shell" id="tariffe" aria-label="Tariffe delle camere">
+      <div class="section-head reveal">
+        <span class="eyebrow">Tariffe</span>
+        <h2>Prezzi pubblicati e richiesta diretta sulle date.</h2>
+        <p>Il sito rende subito leggibile il punto di partenza, poi trasforma il contatto in una richiesta concreta.</p>
+      </div>
+
+      <div class="rates-grid">
+        <article class="rate-card reveal">
+          <span>Ginestra</span>
+          <strong>€70</strong>
+          <p>per notte</p>
+          <button class="text-link room-select" data-room="Doppia Ginestra" type="button">Verifica</button>
+        </article>
+        <article class="rate-card highlight reveal delay-1">
+          <span>Tulipano</span>
+          <strong>€100</strong>
+          <p>per notte</p>
+          <button class="text-link room-select" data-room="Doppia Tulipano" type="button">Verifica</button>
+        </article>
+        <article class="rate-card reveal delay-2">
+          <span>Ranuncolo</span>
+          <strong>€130</strong>
+          <p>per notte</p>
+          <button class="text-link room-select" data-room="Tripla Ranuncolo" type="button">Verifica</button>
+        </article>
+        <article class="rate-card reveal delay-3">
+          <span>Lavanda</span>
+          <strong>Su richiesta</strong>
+          <p>tariffa dedicata</p>
+          <button class="text-link room-select" data-room="Suite Lavanda" type="button">Richiedi</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience shell" id="esperienza" aria-label="Esperienza Tiarè">
+      <div class="experience-grid">
+        <div class="experience-copy reveal">
+          <span class="eyebrow">Esperienza Tiarè</span>
+          <h2>La camera accoglie. Trani completa il soggiorno.</h2>
+          <p>
+            Tiarè nasce per offrire un’ospitalità intima, curata e rilassante. A pochi minuti dal mare e dal centro,
+            permette di vivere la città con più lentezza, tra scorci, cucina locale e consigli dell’host.
+          </p>
+
+          <div class="experience-list">
+            <article><strong>Vivi la cucina locale</strong><span>Ristoranti tipici, trattorie e locali sul mare da scoprire.</span></article>
+            <article><strong>Consigli personalizzati</strong><span>Indicazioni dell’host in base al tipo di soggiorno.</span></article>
+            <article><strong>Servizi su richiesta</strong><span>Noleggio biciclette e autonoleggio disponibili su richiesta.</span></article>
+          </div>
+        </div>
+
+        <div class="editorial-gallery reveal delay-1" aria-label="Dettagli camera Lavanda">
+          <figure class="gallery-main"><img src="assets/detail-lavanda-bed.webp" alt="Dettaglio letto della Suite Lavanda" loading="lazy" /></figure>
+          <figure><img src="assets/detail-lavanda-chair.webp" alt="Poltrona nella Suite Lavanda" loading="lazy" /></figure>
+          <figure><img src="assets/detail-lavanda-wardrobe.webp" alt="Arredi della Suite Lavanda" loading="lazy" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="concierge-preview shell reveal" aria-label="Concierge digitale">
+      <div class="concierge-card">
+        <div>
+          <span class="eyebrow">Concierge digitale</span>
+          <h2>Una chat pronta a orientare il visitatore.</h2>
+          <p>
+            Camere, tariffe, disponibilità, contatti e posizione: il sito risponde subito alle domande ricorrenti
+            e indirizza alla richiesta diretta quando serve una conferma reale.
+          </p>
+        </div>
+        <button class="btn btn-primary" id="open-concierge-inline" type="button">Apri il concierge</button>
+      </div>
+    </section>
+
+    <section class="faq shell" aria-label="Domande frequenti">
+      <div class="section-head reveal">
+        <span class="eyebrow">Informazioni utili</span>
+        <h2>Le risposte che fanno decidere prima.</h2>
+      </div>
+      <div class="faq-grid">
+        <details class="faq-item reveal">
+          <summary>Come verifico disponibilità e prezzo?</summary>
+          <p>Compila il modulo con date, ospiti e camera preferita. Il sito prepara una richiesta WhatsApp completa.</p>
+        </details>
+        <details class="faq-item reveal delay-1">
+          <summary>Quali camere posso richiedere?</summary>
+          <p>Suite Lavanda, Doppia Ginestra, Doppia Tulipano e Tripla Ranuncolo.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Dove si trova il B&B?</summary>
+          <p>In Via Simone de Brado n.123, 76125 Trani, Italia.</p>
+        </details>
+        <details class="faq-item reveal delay-1">
+          <summary>Sono disponibili servizi aggiuntivi?</summary>
+          <p>La struttura indica su richiesta noleggio biciclette e servizio di autonoleggio.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="contact shell" id="contatti" aria-label="Contatti B&B Tiarè">
+      <div class="contact-card reveal">
+        <div>
+          <span class="eyebrow">Contatti diretti</span>
+          <h2>Parla con Tiarè.</h2>
+          <p>Disponibilità, prezzi, camere e richieste sul soggiorno: il contatto resta immediato e umano.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="https://wa.me/39368435026?text=Buongiorno%2C%20vorrei%20ricevere%20informazioni%20sul%20B%26B%20Tiar%C3%A8." target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn-soft" href="tel:+39368435026">Chiama</a>
+          <a class="btn btn-outline" href="mailto:bbtriare@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo_tiare.png" alt="Tiarè Bed & Breakfast" />
+        <p>Bed & Breakfast a Trani, con camere curate e contatto diretto per richieste di soggiorno.</p>
+      </div>
+      <div>
+        <h3>Struttura</h3>
+        <p>Via Simone de Brado n.123<br />76125 Trani, Italia</p>
+      </div>
+      <div>
+        <h3>Contatti</h3>
+        <p><a href="tel:+39368435026">Riccardo · +39 368 435 026</a><br /><a href="mailto:bbtriare@gmail.com">bbtriare@gmail.com</a></p>
+      </div>
+      <div>
+        <h3>Dati</h3>
+        <p>Host Riccardo Rutigliano<br />CIN: IT110009C100123950</p>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <p>© 2026 B&B Tiarè</p>
+      <div class="footer-links">
+        <a href="#">Privacy policy</a>
+        <a href="#">Cookie policy</a>
+        <a href="#">Trattamento dati</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/39368435026?text=Buongiorno%2C%20vorrei%20ricevere%20informazioni%20sul%20B%26B%20Tiar%C3%A8." target="_blank" rel="noopener" aria-label="Contatta Tiarè su WhatsApp">
+    WhatsApp
+  </a>
+
+  <button class="chat-launcher" id="chat-launcher" type="button" aria-label="Apri il concierge digitale">
+    <i></i><strong>Concierge</strong>
+  </button>
+
+  <aside class="chat-panel" id="chat-panel" aria-hidden="true" aria-label="Concierge digitale Tiarè">
+    <header class="chat-header">
+      <div>
+        <span class="eyebrow small">Concierge Tiarè</span>
+        <h3>Come posso aiutarti?</h3>
+      </div>
+      <button id="chat-close" type="button" aria-label="Chiudi la chat">×</button>
+    </header>
+    <div class="chat-messages" id="chat-messages">
+      <div class="message bot">Ciao. Posso aiutarti con camere, tariffe, disponibilità, posizione e contatti.</div>
+    </div>
+    <div class="chat-chips">
+      <button type="button" data-prompt="Quali camere avete?">Camere</button>
+      <button type="button" data-prompt="Quali sono i prezzi?">Tariffe</button>
+      <button type="button" data-prompt="Vorrei verificare disponibilità">Disponibilità</button>
+      <button type="button" data-prompt="Dove si trova il B&B?">Posizione</button>
+    </div>
+    <form class="chat-form" id="chat-form">
+      <input id="chat-input" type="text" placeholder="Scrivi una domanda..." autocomplete="off" />
+      <button type="submit">Invia</button>
+    </form>
+  </aside>
+
+  <div class="mobile-bar">
+    <a href="#disponibilita">Disponibilità</a>
+    <a href="https://wa.me/39368435026?text=Buongiorno%2C%20vorrei%20ricevere%20informazioni%20sul%20B%26B%20Tiar%C3%A8." target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

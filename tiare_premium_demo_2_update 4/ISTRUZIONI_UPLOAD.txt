@@ -1,0 +1,6 @@
+CARICAMENTO CONSIGLIATO
+
+1. Su GitHub elimina la cartella attuale “tiare_premium_demo_2_update 3”.
+2. Carica questa cartella completa con lo stesso nome.
+3. In Vercel la Directory principale deve restare: tiare_premium_demo_2_update 3
+4. Vercel ridistribuisce automaticamente.
