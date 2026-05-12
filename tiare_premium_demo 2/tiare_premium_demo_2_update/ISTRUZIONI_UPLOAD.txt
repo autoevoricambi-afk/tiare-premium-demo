@@ -1,0 +1,26 @@
+AGGIORNAMENTO V3 - TIARÈ PREMIUM DEMO
+
+Caricamento su GitHub:
+1. Apri la repository tiare-premium-demo.
+2. Entra nella cartella: tiare_premium_demo 2
+3. Clicca Add file > Upload files.
+4. Estrai questo ZIP sul Mac.
+5. Apri la cartella tiare_premium_demo_2_update.
+6. Trascina dentro GitHub:
+   - index.html
+   - cartella assets
+7. GitHub sostituirà i file esistenti e aggiungerà le nuove immagini.
+8. Commit: "Upgrade premium completo con hero Trani e nuove camere"
+9. Vercel ridistribuisce automaticamente.
+
+Nuove immagini già rinominate e pronte:
+- hero-trani-auto.webp
+- room-lavanda.webp
+- room-ginestra.webp
+- room-tulipano.webp
+- room-ranuncolo.webp
+- detail-lavanda-bed.webp
+- detail-lavanda-chair.webp
+- detail-lavanda-wardrobe.webp
+
+Non usare i nomi originali WhatsApp: i file in assets sono già puliti e richiamati correttamente dal sito.
