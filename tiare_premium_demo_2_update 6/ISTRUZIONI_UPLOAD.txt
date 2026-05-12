@@ -1,0 +1,14 @@
+CARICA SU GITHUB SOLO IL CONTENUTO DI QUESTA CARTELLA:
+
+- index.html
+- cartella assets
+
+Se in GitHub/Vercel stai usando la directory:
+"tiare_premium_demo_2_update 3"
+allora sostituisci i file dentro quella cartella.
+
+IMPORTANTE:
+non caricare una cartella dentro un'altra cartella.
+Dentro la cartella finale devono esserci direttamente:
+- index.html
+- assets/
